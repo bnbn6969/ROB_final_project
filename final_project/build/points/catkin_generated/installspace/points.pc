@@ -1,0 +1,8 @@
+prefix=/home/james/final_project/install
+
+Name: points
+Description: Description of points
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

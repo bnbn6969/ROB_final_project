@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/home/james/final_project/devel/include/**",
+                "/opt/ros/noetic/include/**",
+                "/home/james/final_project/src/mav_comm/mav_msgs/include/**",
+                "/home/james/final_project/src/mav_comm/mav_planning_msgs/include/**",
+                "/home/james/final_project/src/qptrajectory_ros/include/**",
+                "/home/james/final_project/src/final_project/rotors_control/include/**",
+                "/home/james/final_project/src/final_project/rotors_gazebo_plugins/include/**",
+                "/home/james/final_project/src/final_project/rotors_hil_interface/include/**",
+                "/home/james/final_project/src/final_project/rotors_joy_interface/include/**",
+                "/usr/include/**",
+                "${workspaceFolder}/qptrajectory_ros/include",
+                "${workspaceFolder}/final_project/rotors_gazebo/include"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
+}
